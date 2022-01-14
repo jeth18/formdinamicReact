@@ -1,7 +1,7 @@
 import { Input } from "../input";
 import { Option } from "../option";
 import { Select } from "../select";
-import { useContext } from "react/cjs/react.development";
+import { useContext } from "react";
 import { AppContext } from "../../context/provider";
 
 export const ViewComponents = () => {

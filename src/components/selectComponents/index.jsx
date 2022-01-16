@@ -33,7 +33,10 @@ export const SelectComponents = () => {
           <option value="option">radio</option>
           <option value="select">select</option>
         </select>
-        <button onClick={() => handleSubmit()}>
+        <button
+          onClick={() => handleSubmit()}
+          disabled={option.component === ""}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
